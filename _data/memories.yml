@@ -1,0 +1,15 @@
+- image: playground.png
+  description: "Playgournd besides the sea"
+  time: 2024-1
+  location: HKUST
+
+- image: firework.png
+  description: "Fireworks from a Mountain Top View"
+  highlight: true
+  time: 2023-10
+  location: Victoria Peak
+
+- image: tamen.png
+  description: "Natural scenery of island in HK"
+  time: 2023-10
+  location: Tamen Island

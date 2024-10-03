@@ -1,4 +1,38 @@
-{% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ (pub.title | slugify) }}{% endif %}{% endcapture %}
+<div class="project"></div>
+  <span class="title">{{ pub.title }}</span>
+  {% if pub.url || pub.code || pub.article || pub.paper %}
+    <a href="{{ pub.url || pub.code || pub.article || pub.paper }}" class="preview-image" style="background-image: url('{{ "/images/projects/" | append: project.image | relative_url }}')"></a>
+  {% endif %}
+  <p>
+    {{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}
+  </p>
+  <div class="spacer"></div>
+  <div class="links">
+    {% if project.article %}
+      <a href="{{ project.article }}"><i class="fas fa-newspaper" aria-hidden="true"></i> Post</a>
+    {% endif %}
+    {% if project.demo %}
+      <a href="{{ project.demo }}"><i class="fas fa-play" aria-hidden="true"></i> Demo</a>
+    {% endif %}
+    {% if project.url %}
+      <a href="{{ project.url }}"><i class="fas fa-link" aria-hidden="true" aria-hidden="true"></i> Website</a>
+    {% endif %}
+    {% if project.code %}
+      <a href="{{ project.code }}"><i class="fab fa-github" aria-hidden="true" aria-hidden="true"></i> Code</a>
+    {% endif %}
+    {% if project.paper %}
+      <a href="{{ project.paper }}"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper</a>
+    {% endif %}
+    {% if project.video %}
+      <a href="{{ project.video }}"><i class="fas fa-film" aria-hidden="true"></i> Video</a>
+    {% endif %}
+    {% if project.recording %}
+      <a href="{{ project.recording }}"><i class="fas fa-video" aria-hidden="true"></i> Recording</a>
+    {% endif %}
+  </div>
+</div>
+
+<!-- {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ (pub.title | slugify) }}{% endif %}{% endcapture %}
 
 <div class="publication" data-pub='{{ pub | jsonify | escape }}'>
   <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %} award-icon" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
@@ -11,12 +45,6 @@
       {% if pub.venue_url %}
         <a href="{{ pub.venue_url }}">
       {% endif %}
-      {{ pub.venue }}<!--
-      {% if pub.venue_location %}
-        --> in {{ pub.venue_location }}<!--
-      {% endif %}
-      -->{% if pub.venue_url %}</a>{% endif %}
-      {{ pub.year }}
     </div>
   {% endif %}
 
@@ -114,4 +142,4 @@
     {% endif %}
     </div>
   {% endif %}
-</div>
+</div> -->
