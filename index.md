@@ -93,7 +93,7 @@ In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg ga
 ## <a href="">Publications</a>
 
 <div class="featured-projects">
-  {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
+  {% assign sorted_projects = site.data.projects %}
   {% for project in sorted_projects %}
     {% if project.highlight %}
       {% include project.html project=project %}
