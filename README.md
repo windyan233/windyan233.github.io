@@ -1,23 +1,21 @@
 # Website
 
-## Write
-
-```
-bundle exec jekyll post "My New Post"
-```
-
 ## Run
-
 ```
 bundle exec jekyll serve --livereload
 ```
 
-## Run with Docker
-
+## clean
 ```
-docker run \
-  --volume="$PWD:/srv/jekyll" \
-  -p 4000:4000 -p 35729:35729 \
-  -it jekyll/jekyll \
-  jekyll serve --livereload
+bundle exec jekyll clean    
+```
+
+## install
+```
+bundle install 
+```
+
+## build
+```
+bundle exec jekyll build 
 ```

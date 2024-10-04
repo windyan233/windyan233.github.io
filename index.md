@@ -4,7 +4,7 @@ title: "Home"
 class: home
 ---
 
-<h1 id="typewriter">Hi, I'm  Yan Luo</h1>
+<!-- <h1 id="typewriter">Hi, I'm  Yan Luo</h1>
 <style>
   #typewriter {
     font-size: 2em;
@@ -52,7 +52,7 @@ class: home
 
     typeWriter();
   });
-</script>
+</script> -->
 
 <div class="columns" markdown="1">
 
@@ -66,9 +66,9 @@ In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg ga
 
 <div class="me" markdown="1">
 <picture>
-  <source srcset='/images/profile.webp' type='image/webp' />
+  <source srcset='/images/yan.webp' type='image/webp' />
   <img
-    src='/images/profile.png'
+    src='/images/yan.png'
     alt='Yan Luo'>
 </picture>
 

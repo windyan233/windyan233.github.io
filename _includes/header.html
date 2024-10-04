@@ -1,6 +1,60 @@
 {% assign current = page.url | downcase | split: '/' %}
 <header class="page-header">
   <nav class="container">
+    <h1 id="typewriter">Hi, I'm  Yan Luo</h1>
+<style>
+  #typewriter {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    color: #87ceeb;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block; /* 确保光标跟随文字 */
+    position: relative; /* 为伪元素定位 */
+    letter-spacing: 0.1em; /* 调整字符间距 */
+  }
+  #typewriter::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 0.15em;
+  height: 1.2em; /* 确保光标高度与文字高度一致 */
+  background-color: #87ceeb;
+  animation: blink-caret 0.75s step-end infinite;
+}
+  @keyframes blink-caret {
+    from, to { background-color: transparent; }
+    50% { background-color: #87ceeb; }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const typewriter = document.getElementById('typewriter');
+    const text = typewriter.textContent;
+    typewriter.textContent = '';
+    let index = 0;
+
+    function type() {
+      if (index < text.length) {
+        typewriter.textContent += text.charAt(index);
+        index++;
+        setTimeout(type, 500); // 调整打字速度
+      } else {
+        // 打字完成后移除光标
+        typewriter.classList.add('finished');
+      }
+    }
+
+    type();
+  });
+</script>
+<style>
+  #typewriter.finished::after {
+    display: none; /* 打字完成后隐藏光标 */
+  }
+</style>
     <img src="capoo2.gif" height="80px" width="140px" />
     <!-- <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a> -->
 
@@ -10,9 +64,12 @@
     <a href="{{ '/talks/' | relative_url }}" {% if current[1] == 'talks' %}aria-current="page"{% endif %}>Talks</a>
      -->
     <!-- <a href="{{ '/cv/' | relative_url }}" {% if current[1] == 'cv' %}aria-current="page"{% endif %}>CV</a> -->
+    <!-- <span class="external">
+      <a href="https://github.com/yanluo0913" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+    </span> -->
 
-    <span class="external">
+    <!-- <span class="external">
       <a href="mailto:yluodj@connect.ust.hk"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
-    </span>
+    </span> -->
   </nav>
 </header>
