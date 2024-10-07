@@ -1,15 +1,36 @@
-- image: playground.png
+- image: sunset.webp
+  description: "Brilliant sunset"
+  time: 2024-10
+  location: Wutong Mountain
+  highlight: 6
+
+- image: yantian.webp
+  description: "Overlooking Yantian Port"
+  time: 2024-10
+  location: Wutong Mountain
+  highlight: 5
+
+- image: Yeung Chau.webp
+  description: "Rowing to the beach on the island"
+  time: 2024-1
+  location: Yeung Chau
+  highlight: 4
+
+- image: playground.webp
   description: "Playgournd besides the sea"
   time: 2024-1
   location: HKUST
+  highlight: 3
 
-- image: firework.png
+- image: firework.webp
   description: "Fireworks from a Mountain Top View"
   highlight: true
   time: 2023-10
   location: Victoria Peak
+  highlight: 2
 
-- image: tamen.png
+- image: tamen.webp
   description: "Natural scenery of island in HK"
   time: 2023-10
   location: Tamen Island
+  highlight: 1

@@ -1,21 +1,16 @@
-<!-- <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head> -->
 <div class="memories">
-  
-    <a href=" " class="preview-image" style="background-image: url('{{ "/images/memories/" | append: memories.image | relative_url }}')"></a>
-    
-    <p>
+<div class="preview-image" data-name="{{ memories.image }}" style="background-image: url('{{ "/images/memories/" | append: memories.image | relative_url }}')"></div>  
+  <p>
     {{ memories.description | markdownify | remove: '<p>' | remove: '</p>' }}
-    </p>
-    <div class="links">
-      <a href=" "> <i class="fas fa-calendar-alt"></i> {{ memories.time }}</a>
-      <a href=" "> <i class="fas fa-map-marker-alt"></i> {{ memories.location }}</a>
-    </div>
-
+  </p>
+  <div class="links">
+    <a href="#"> <i class="fas fa-calendar-alt"></i> {{ memories.time }}</a>
+    <a href="#"> <i class="fas fa-map-marker-alt"></i> {{ memories.location }}</a>
+  </div>
   
   <div class="spacer"></div>
 </div>
+
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -25,38 +20,10 @@
       image.addEventListener('click', function(event) {
         event.preventDefault(); // 阻止默认的链接跳转行为
         this.classList.toggle('zoomed');
+        console.log('当前图片名称:', this.getAttribute('data-name')); // 输出当前图片的名称
       });
     });
   });
 </script>
-
-
-  <!-- <div class="links">
-    {% if memories.paper %}
-      <a href="{{ memories.paper }}"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a>
-    {% endif %}
-    {% if memories.arxiv %}
-      <a href="{{ memories.arxiv }}">
-        <i class="fas fa-archive" aria-hidden="true"></i> ArXiv </a>
-    {% endif %}
-    {% if memories.code %}
-    <a href="{{ memories.code }}"><i class="fab fa-github" aria-hidden="true" aria-hidden="true"></i> Code</a>
-    {% endif %}
-    {% if memories.article %}
-      <a href="{{ memories.article }}"><i class="fas fa-newspaper" aria-hidden="true"></i> Post</a>
-    {% endif %}
-    {% if memories.demo %}
-      <a href="{{ memories.demo }}"><i class="fas fa-play" aria-hidden="true"></i> Demo</a>
-    {% endif %}
-    {% if memories.url %}
-      <a href="{{ memories.url }}"><i class="fas fa-link" aria-hidden="true" aria-hidden="true"></i> Website</a>
-    {% endif %}
-    {% if memories.video %}
-      <a href="{{ memories.video }}"><i class="fas fa-film" aria-hidden="true"></i> Video</a>
-    {% endif %}
-    {% if memories.recording %}
-      <a href="{{ memories.recording }}"><i class="fas fa-video" aria-hidden="true"></i> Recording</a>
-    {% endif %}
-  </div> -->
 
 

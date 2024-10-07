@@ -104,11 +104,25 @@ In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg ga
 ## <a href="">Memories</a>
 
 <div class="featured-memories">
-  {% assign sorted_memories = site.data.memories %}
+  <!-- {% assign sorted_memories = site.data.memories %} -->
+  {% assign sorted_memories = site.data.memories | sort: 'highlight' %}
   {% for memories in sorted_memories %}
+    {% if memories.highlight == 1 or memories.highlight == 2 or memories.highlight == 3 %}
       {% include memories.html memories=memories %}
+    {% endif %}
+  {% endfor %}
+
+</div>
+
+<div class="featured-memories">
+  {% assign sorted_memories = site.data.memories | sort: 'highlight' %}
+  {% for memories in sorted_memories %}
+    {% if memories.highlight == 4 or memories.highlight == 5 or memories.highlight == 6 %}
+      {% include memories.html memories=memories %}
+    {% endif %}
   {% endfor %}
 </div>
+
 
 <!-- <a href="{{ "/projects/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>

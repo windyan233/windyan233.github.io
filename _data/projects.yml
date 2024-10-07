@@ -1,7 +1,7 @@
 - title: "Prismatic: Interactive Multi-View Cluster Analysis of Concept Stocks"
   arxiv: https://arxiv.org/abs/2402.08978
   pdf: https://arxiv.org/pdf/2402.08978
-  image: prismatic.png
+  image: prismatic.webp
   description: "Wong Kam-Kwai, <u>Yan Luo</u>, Xuanwu Yue, Wei Chen, and Huamin Qu"
   con: Under Review
   highlight: 2
@@ -9,13 +9,13 @@
 - title: "Save It for the \"Hot\" Day: An LLM-Empowered Visual Analytics System for Heat Risk Management"
   arxiv: https://arxiv.org/abs/2406.03317
   pdf: https://arxiv.org/pdf/2406.03317
-  image: havior.png
+  image: havior.webp
   description: "Haobo Li, Wong Kam-Kwai, <u>Yan Luo</u>, Juntong Chen, Chengzhong Liu, Yaxuan Zhang, Alexis Kai Hon Lau, Huamin Qu, and Dongyu Liu"
   con: Under Review
   highlight: 2
 
 - title: "Knowledge Compass: A Question Answering System Guiding Students with Follow-Up Question Recommendations"
-  image: knowledge_compass.png
+  image: knowledge_compass.webp
   description: "Rui Sheng, Leni Yang, Haotian Li, <u>Yan Luo</u>, Ziyang Xu, Zhilan Zhou, David Gotz, Huamin Qu"
   con: Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST 2023).
   highlight: true
