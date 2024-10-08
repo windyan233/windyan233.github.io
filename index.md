@@ -61,7 +61,7 @@ I'm a Mphil student in the [Vislab](http://vis.cse.ust.hk/) affiliated with the 
 
 My interest lies in [Data Visualization](https://yanluo0913.github.io) and [Human-Computer Interaction(HCI)](https://yanluo0913.github.io). I have experience in developing Visual Analytics System. Now, I'm seeking opporunity for [Data Storytelling]((https://yanluo0913.github.io)).
 
-In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg games. I'm also exploring the digital nomad lifestyle. If you're interested in these things, feel free to chat with me:)
+In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg games. If you're interested in these things, feel free to chat with me:)
 </div>
 
 <div class="me" markdown="1">
