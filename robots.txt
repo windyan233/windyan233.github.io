@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /octopress/
-
-Sitemap: https://yanluo0913.github.io/sitemap.xml
