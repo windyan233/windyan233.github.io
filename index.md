@@ -59,16 +59,18 @@ class: home
 <div class="intro" markdown="1">
 I'm a Mphil student in the [Vislab](http://vis.cse.ust.hk/) affiliated with the [Hong Kong University of Science and Technology(HKUST)]() under the guidance of [prof. Huamin Qu](http://huamin.org/). Before that, I received my Bachelor’s Degree from Huazhong University of Science and Technology in Wuhan.
 
-My interest lies in [Data Visualization](https://yanluo0913.github.io) and [Human-Computer Interaction(HCI)](https://yanluo0913.github.io). I have experience in developing Visual Analytics System. Now, I'm seeking opporunity for [Data Storytelling]((https://yanluo0913.github.io)).
+
+My interest lies in [Data Visualization](https://yanluo0913.github.io) and [Human-Computer Interaction(HCI)](https://yanluo0913.github.io). In particular, I have some experience in developing visualization systems in interdisciplinary fields such as FinTech, E-learning, and Environmental Science.
+
 
 In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg games. If you're interested in these things, feel free to chat with me:)
 </div>
 
 <div class="me" markdown="1">
 <picture>
-  <source srcset='/images/yan.webp' type='image/webp' />
+  <source srcset='/images/profile.webp' type='image/webp' />
   <img
-    src='/images/yan.png'
+    src='/images/profile.png'
     alt='Yan Luo'>
 </picture>
 
