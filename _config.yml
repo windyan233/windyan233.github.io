@@ -2,11 +2,11 @@
 title: Yan Luo
 email: yluodj@connenct.ust.hk
 description: > # this means to ignore newlines until "baseurl:"
-   I'm a Mphil student in the Department of Computer Science and  Engineering at the Hong Kong University of Science and Technology. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yanluo0913.github.io" # the base hostname & protocol for your site
-production_url: "https://yanluo0913.github.io"
-github_username: yanluo0913
+   I'm a Mphil student in the Department of Computer Science and Engineering at the Hong Kong University of Science and Technology. 
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://yanluo0913.github.io" # the base hostname & protocol for your site
+# production_url: "https://yanluo0913.github.io"
+# github_username: yanluo0913
 permalink: /blog/:year/:month/:title.html
 
 twitter:

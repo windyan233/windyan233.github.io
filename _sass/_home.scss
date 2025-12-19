@@ -33,6 +33,43 @@
       ul {
         margin-top: 16px;
       }
+
+      .social-icons {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column; /* 竖着排列 */
+        align-items: flex-start; /* 左对齐 */
+        gap: 8px;              /* 行间距 */
+        margin-left: 10px;     /* 稍微向右缩进一点，避免贴边，或根据需要调整 */
+
+        .icon-row {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: $grey-color;
+          font-size: 0.9em;
+
+          a {
+            color: $grey-color;
+            font-size: 1.2em; /* 图标稍大 */
+            transition: color 0.2s ease;
+
+            /* 默认颜色设置 */
+            .fa-envelope { color: $brand-color; } /* 使用主题蓝，更协调 */
+            .fa-github { color: #333; }      /* GitHub Black */
+            .fa-orcid { color: #A6CE39; }    /* ORCID Green */
+            .fa-twitter { color: #1DA1F2; }  /* Twitter Blue */
+            
+            &:hover {
+              opacity: 0.8; /* 悬停时稍微透明，不再强制变品牌色，保持原色 */
+            }
+          }
+          
+          .icon-text {
+             font-size: 0.9em;
+          }
+        }
+      }
     }
   }
 

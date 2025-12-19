@@ -26,3 +26,35 @@
     padding: 0 calc($spacing-unit/2);
   }
 }
+
+/* Typewriter Effect */
+#typewriter {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: monospace; /* Professional monospace font */
+  color: $brand-color;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  letter-spacing: 0.1em;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0.15em;
+    height: 1.2em;
+    background-color: $brand-color;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  &.finished::after {
+    display: none;
+  }
+}
+
+@keyframes blink-caret {
+  from, to { background-color: transparent; }
+  50% { background-color: $brand-color; }
+}

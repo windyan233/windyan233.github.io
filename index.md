@@ -57,13 +57,11 @@ class: home
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a Mphil student in the [Vislab](http://vis.cse.ust.hk/) affiliated with the [Hong Kong University of Science and Technology(HKUST)]() under the guidance of [prof. Huamin Qu](http://huamin.org/). Before that, I received my Bachelor’s Degree from Huazhong University of Science and Technology in Wuhan.
-
-
-My interest lies in [Data Visualization](https://yanluo0913.github.io) and [Human-Computer Interaction(HCI)](https://yanluo0913.github.io). In particular, I have some experience in developing visualization systems in interdisciplinary fields such as FinTech, E-learning, and Environmental Science.
-
-
-In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg games. If you're interested in these things, feel free to chat with me:)
+I am currently an MPhil student at the Hong Kong University of Science and Technology (HKUST), where I conduct research at [VisLab](http://vis.cse.ust.hk/) under the supervision of [Prof. Huamin Qu](http://huamin.org/). Previously, I received my Bachelor’s degree from Huazhong University of Science and Technology.
+<br><br>
+My research interests lie at the intersection of [Data Visualization](https://yanluo0913.github.io) and [Human-Computer Interaction (HCI)](https://yanluo0913.github.io). I have extensive experience in designing and implementing visualization systems for interdisciplinary applications, including FinTech, E-learning, and Environmental Science.
+<br><br>
+Beyond my academic work, I am passionate about investigating the latest advancements in AI models and exploring vibe coding best practices. I am particularly intrigued by the design and product thinking behind AI applications and how they are reshaping traditional industries, and I welcome any discussions on these topics!
 </div>
 
 <div class="me" markdown="1">
@@ -74,8 +72,23 @@ In my spare time, I enjoy citywalk, taking photos, and playing open-world rpg ga
     alt='Yan Luo'>
 </picture>
 
+<div class="social-icons">
+  <div class="icon-row">
+    <a href="mailto:yluodj@connect.ust.hk" title="Email"><i class="fas fa-envelope"></i></a>
+    <span class="icon-text">yluodj@connect.ust.hk</span>
+  </div>
+  <div class="icon-row">
+    <a href="https://github.com/windyan233" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <span class="icon-text">windyan233</span>
+  </div>
+  <div class="icon-row">
+    <a href="https://orcid.org/0009-0005-9799-3540" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+    <span class="icon-text">0009-0005-9799-3540</span>
+  </div>
+  <!-- <a href="https://twitter.com/yanluo" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a> -->
+</div>
+
 {:.no-list}
-* <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </div>
 
 </div>
