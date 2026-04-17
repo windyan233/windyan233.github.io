@@ -1,3 +1,11 @@
+- title: "StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems"
+  pdf: https://arxiv.org/pdf/2602.17067
+  arxiv: https://arxiv.org/abs/2602.17067
+  image: storylensedu.png
+  description: "Leixian Shen<sup>*</sup>, <u>Yan Luo</u><sup>*</sup>, Rui Sheng<sup>&dagger;</sup>, Yujia He, Haotian Li, Leni Yang, Huamin Qu"
+  con: IEEE Pacific Visualization Conference (PacificVis '26), 2026
+  highlight: 2
+
 - title: "CellScout: Visual Analytics for Mining Biomarkers in Cell State Discovery"
   pdf: https://www.arxiv.org/pdf/2512.03485
   image: cellScout.webp

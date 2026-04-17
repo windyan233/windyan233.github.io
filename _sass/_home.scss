@@ -137,6 +137,16 @@
         font-size: 0.85em;
         margin-top: 0.7em;
         margin-bottom: 0;
+
+        sup {
+          font-size: 0.72em;
+          line-height: 0;
+          vertical-align: baseline;
+          position: relative;
+          top: -0.22em;
+          margin-left: 0.02em;
+          margin-right: -0.08em;
+        }
       }
 
       .c {
