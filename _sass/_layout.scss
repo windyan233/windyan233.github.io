@@ -33,11 +33,12 @@
   font-weight: bold;
   font-family: monospace; /* Professional monospace font */
   color: $brand-color;
+  max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
   position: relative;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.04em;
 
   &::after {
     content: '';
@@ -51,6 +52,13 @@
   
   &.finished::after {
     display: none;
+  }
+}
+
+@include media-query($on-palm) {
+  #typewriter {
+    font-size: 1.65em;
+    letter-spacing: 0.02em;
   }
 }
 
