@@ -389,14 +389,17 @@
   @include media-query($on-palm) {
     .columns {
       flex-direction: column;
-      align-items: center;
+      align-items: stretch;
 
       .intro {
         order: 2;
+        width: 100%;
+        min-width: 0;
       }
       .me {
         order: 1;
         margin-left: 0;
+        align-self: center;
       }
     }
 
