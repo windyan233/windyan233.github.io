@@ -61,7 +61,7 @@ I am currently an MPhil student at the Hong Kong University of Science and Techn
 <br><br>
 My research interests lie at the intersection of [Data Visualization](https://yanluo0913.github.io) and [Human-Computer Interaction (HCI)](https://yanluo0913.github.io). I have extensive experience in designing and implementing visualization systems for interdisciplinary applications, including FinTech, E-learning, and Environmental Science.
 <br><br>
-Beyond my academic work, I am passionate about investigating the latest advancements in AI models and exploring vibe coding best practices. I am particularly intrigued by the design and product thinking behind AI applications and how they are reshaping traditional industries, and I welcome any discussions on these topics!
+I enjoy using AI to create, prototype, and refine ideas. I am particularly interested in how AI can enhance the creative process, from early ideation and experimentation to implementation and iteration. I am also drawn to AI-native product design and to how AI applications are changing the way we build, create, and work.
 </div>
 
 <div class="me" markdown="1">
@@ -164,4 +164,3 @@ Beyond my academic work, I am passionate about investigating the latest advancem
   <i class="fas fa-chevron-circle-right"></i>
   Show All Publications
 </a> -->
-
